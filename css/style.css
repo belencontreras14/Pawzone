@@ -1,0 +1,399 @@
+/*!------RESET------*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+
+/*!------HEADER------*/
+header {
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+
+
+header h1 {
+    font-size: 60px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 900;
+    color: rgb(0, 0, 0);
+
+}
+
+header nav {
+    width: 50%;
+}
+
+header nav ul {
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+header nav ul li {
+    margin: 5px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+
+
+
+/*!------MAIN------*/
+.hero {
+    width: 100%;
+    height: 500px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    background-image: url("../img/pets1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero h2 {
+    font-size: 60px;
+}
+
+.hero a {
+    text-decoration: none;
+    background-color: #ffffff;
+    color: black;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.solo {
+    width: 100%;
+    height: 500px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    background-image: url("../img/pets2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.solo h2 {
+    font-size: 60px;
+}
+
+.solo a {
+    text-decoration: none;
+    background-color: #ffffff;
+    color: black;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+/* CARD CONTENEDOR */
+
+.adopta h2 {
+    text-align: center;
+    background-color: #000;
+    font-size: 30px;
+    color: #ffffff;
+    padding: 10px;
+}
+
+.adopta .card-contenedor {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.adopta .card-contenedor div {
+    width: 250px;
+    border: 1px black solid;
+    text-align: center;
+    margin: 20px;
+    transition: 1s;
+}
+
+.adopta div img {
+    width: 100%;
+    height: 270px;
+}
+
+.adopta div a {
+    text-decoration: none;
+    display: inline-block;
+    margin: 10px;
+    background-color: orangered;
+    color: azure;
+    padding: 15px;
+}
+
+/* CARD CONTENEDOR */
+
+.fundada {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.fundada div {
+    width: 50%;
+    margin: 20px;
+}
+
+.fundada div h2 {
+    font-size: 50px;
+}
+
+.fundada div p {
+    font-size: 20px;
+    width: 80%;
+}
+
+.fundada img {
+    width: 400px;
+    height: 600px;
+}
+
+/* NOSOTROS - MAPA */
+
+.mapa {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.mapa div {
+    width: 50%;
+}
+
+@media (max-width: 500px) {
+    .mapa div {
+        width: 100%;
+    }
+}
+
+.mapa div h2 {
+    font-size: 50px;
+}
+
+.mapa div p {
+    font-size: 20px;
+    width: 80%;
+}
+
+.mapa iframe {
+    width: 50%;
+}
+
+@media (max-width: 800px) {
+    .mapa iframe {
+        width: 100%;
+    }
+}
+
+@media (max-width: 500px) {
+    .mapa iframe {
+        width: 35%;
+    }
+}
+
+/* NOSOTROS - MAPA */
+
+
+/*!------SERVICIOS------*/
+
+.ofrecemos img {
+    width: 30%;
+    text-align: left;
+}
+
+/*!------NOSOTROS------*/
+.somos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.somos div {
+    width: 50%;
+    margin: 20px;
+}
+
+.somos div h2 {
+    font-size: 50px;
+}
+
+.somos div p {
+    font-size: 20px;
+    width: 80%;
+}
+
+.somos img {
+    width: 400px;
+    height: 300px;
+}
+
+
+.ayudantes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.ayudantes div {
+    width: 50%;
+    margin: 20px;
+}
+
+.ayudantes div h2 {
+    font-size: 50px;
+}
+
+.ayudantes div p {
+    font-size: 20px;
+    width: 80%;
+}
+
+.ayudantes img {
+    width: 400px;
+    height: 600px;
+}
+
+
+
+
+
+
+
+/*!------FOOTER------*/
+footer {
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.footer h2 {
+    font-size: 50px;
+}
+
+footer div a img {
+    /*width = ancho*/
+    width: 50px;
+    /*height = alto*/
+    height: 50px;
+}
+
+/*!------MEDIA QUERY------*/
+@media screen and (max-width:950px) {
+    .fundada {
+        flex-direction: column;
+    }
+
+    .fundada div {
+        width: 80%;
+        text-align: center;
+    }
+
+    .fundada div p {
+        width: 100%;
+    }
+
+    .fundada img {
+        width: 70%;
+        height: 400px;
+    }
+}
+
+
+@media screen and (max-width:900px) {
+    .somos {
+        flex-direction: column;
+    }
+
+    .somos div {
+        width: 80%;
+        text-align: center;
+    }
+
+    .somos div p {
+        width: 100%;
+    }
+
+    .somos img {
+        width: 70%;
+        height: 400px;
+    }
+}
+
+@media screen and (max-width:900px) {
+    .ayudantes {
+        flex-direction: column;
+    }
+
+    .ayudantes div {
+        width: 80%;
+        text-align: center;
+    }
+
+    .ayudantes div p {
+        width: 100%;
+    }
+
+    .ayudantes img {
+        width: 70%;
+        height: 400px;
+    }
+}
+
+
+
+@media screen and (max-width:800px) {
+    header {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width:700px) {
+    header nav ul {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width:550px) {
+    .hero h2 {
+        font-size: 40px;
+    }
+
+    .hero p {
+        font-size: 25px;
+        margin-bottom: 20px;
+    }
+}
