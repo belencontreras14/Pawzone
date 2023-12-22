@@ -65,15 +65,17 @@ header nav ul li a {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .hero h2 {
     font-size: 60px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .hero a {
     text-decoration: none;
-    background-color: #ffffff;
+    background-color: white;
     color: black;
     padding: 10px;
     text-decoration: none;
@@ -94,16 +96,18 @@ header nav ul li a {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .solo h2 {
     font-size: 60px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .solo a {
     text-decoration: none;
     background-color: #ffffff;
-    color: black;
+    color: rgb(0, 0, 0);
     padding: 10px;
     text-decoration: none;
     font-size: 25px;
@@ -113,10 +117,11 @@ header nav ul li a {
 
 .adopta h2 {
     text-align: center;
-    background-color: #000;
+    background-color: orangered;
     font-size: 30px;
     color: #ffffff;
     padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .adopta .card-contenedor {
@@ -155,6 +160,7 @@ header nav ul li a {
     justify-content: center;
     align-items: center;
     padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .fundada div {
@@ -164,11 +170,13 @@ header nav ul li a {
 
 .fundada div h2 {
     font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .fundada div p {
     font-size: 20px;
     width: 80%;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .fundada img {
@@ -196,6 +204,7 @@ header nav ul li a {
 
 .mapa div h2 {
     font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .mapa div p {
@@ -222,19 +231,13 @@ header nav ul li a {
 /* NOSOTROS - MAPA */
 
 
-/*!------SERVICIOS------*/
-
-.ofrecemos img {
-    width: 30%;
-    text-align: left;
-}
-
 /*!------NOSOTROS------*/
 .somos {
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .somos div {
@@ -244,11 +247,13 @@ header nav ul li a {
 
 .somos div h2 {
     font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .somos div p {
     font-size: 20px;
     width: 80%;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .somos img {
@@ -262,6 +267,7 @@ header nav ul li a {
     justify-content: center;
     align-items: center;
     padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .ayudantes div {
@@ -271,11 +277,13 @@ header nav ul li a {
 
 .ayudantes div h2 {
     font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .ayudantes div p {
     font-size: 20px;
     width: 80%;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .ayudantes img {
@@ -283,8 +291,367 @@ header nav ul li a {
     height: 600px;
 }
 
+/*!------SERVICIOS------*/
 
+.ofrecemos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
 
+.ofrecemos div {
+    width: 50%;
+    margin: 20px;
+}
+
+.ofrecemos div h2 {
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.ofrecemos div p {
+    font-size: 20px;
+    width: 80%;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.ofrecemos img {
+    width: 400px;
+    height: 300px;
+}
+
+@media screen and (max-width:950px) {
+    .ofrecemos {
+        flex-direction: column;
+    }
+
+    .ofrecemos div {
+        width: 80%;
+        text-align: center;
+    }
+
+    .ofrecemos div p {
+        width: 100%;
+    }
+
+    .ofrecemos img {
+        width: 70%;
+        height: 400px;
+    }
+}
+
+.peluqueria {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.peluqueria div {
+    width: 50%;
+    margin: 20px;
+}
+
+.peluqueria div h2 {
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.peluqueria div p {
+    font-size: 20px;
+    width: 80%;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.peluqueria img {
+    width: 400px;
+    height: 300px;
+}
+
+@media screen and (max-width:950px) {
+    .peluqueria {
+        flex-direction: column;
+    }
+
+    .oeluqueria div {
+        width: 80%;
+        text-align: center;
+    }
+
+    .peluqueria div p {
+        width: 100%;
+    }
+
+    .peluqueria img {
+        width: 70%;
+        height: 400px;
+    }
+}
+.guarderia {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.guarderia div {
+    width: 50%;
+    margin: 20px;
+}
+
+.guarderia div h2 {
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.guarderia div p {
+    font-size: 20px;
+    width: 80%;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.guarderia img {
+    width: 400px;
+    height: 300px;
+}
+
+@media screen and (max-width:950px) {
+    .guarderia {
+        flex-direction: column;
+    }
+
+    .guarderia div {
+        width: 80%;
+        text-align: center;
+    }
+
+    .guarderia div p {
+        width: 100%;
+    }
+
+    .guarderia img {
+        width: 70%;
+        height: 400px;
+    }
+}
+
+.oftalmologia {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.oftalmologia div {
+    width: 50%;
+    margin: 20px;
+}
+
+.oftalmologia div h2 {
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.oftalmologia div p {
+    font-size: 20px;
+    width: 80%;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.oftalmologia img {
+    width: 400px;
+    height: 300px;
+}
+
+@media screen and (max-width:950px) {
+    .oftalmologia {
+        flex-direction: column;
+    }
+
+    .oftalmologia div {
+        width: 80%;
+        text-align: center;
+    }
+
+    .oftalmologia div p {
+        width: 100%;
+    }
+
+    .oftalmologia img {
+        width: 70%;
+        height: 400px;
+    }
+}
+
+/*!------DONACIONES------*/
+.donaciones {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.donaciones div {
+    width: 50%;
+    margin: 20px;
+}
+
+.donaciones div h2 {
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.donaciones div p {
+    font-size: 20px;
+    width: 80%;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+@media screen and (max-width:950px) {
+    .donaciones {
+        flex-direction: column;
+    }
+
+    .donaciones div {
+        width: 80%;
+        text-align: center;
+    }
+
+    .donaciones div p {
+        width: 100%;
+    }
+}
+
+.donar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.donar div {
+    width: 50%;
+    margin: 20px;
+}
+
+.donar div h2 {
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.donar div p {
+    font-size: 20px;
+    width: 80%;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+@media screen and (max-width:950px) {
+    .donar {
+        flex-direction: column;
+    }
+
+    .donar div {
+        width: 80%;
+        text-align: center;
+    }
+
+    .donar div p {
+        width: 100%;
+    }
+}
+
+/*!------CONTACTO------*/
+.formu {
+    font-family: Arial, Helvetica, sans-serif;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form{
+    padding: 50px 55px;
+    box-shadow: 0 0 20px rgb(0, 0, 0);
+    border-radius: 20px;
+    text-align: center;
+    width: 340px;
+}
+
+.input-group {
+    display: flex  ;
+    flex-direction: column;
+    text-align: left;
+}
+
+.form h2 {
+    color: #283629;
+    font-size: 35px;
+}
+
+.form label {
+    color: #283629;
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.form div input, textarea {
+    padding: 17px 25px;
+    border-radius: 25px;
+    margin-bottom: 20px;
+    background-color: white;
+    border: 2px solid white;
+    color: #283629;
+    outline: none;
+}
+.btn {
+    font-size: 16px;
+    color: #ffffff;
+    border: 0;
+    border-radius: 25px;
+    background-color: #51d94c;
+    box-shadow: 0 0 20px rgba(25, 254, 0, 0.4);
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #51d94c;
+}
+
+@media(max-width: 991px) {
+    
+    .formu {
+        padding: 30px;
+    }
+
+    .form {
+        padding: 50px 30px;
+        width: 100%;
+    }
+
+    .input {
+        padding: 15px;
+    }
+}
 
 
 
@@ -329,7 +696,6 @@ footer div a img {
         height: 400px;
     }
 }
-
 
 @media screen and (max-width:900px) {
     .somos {

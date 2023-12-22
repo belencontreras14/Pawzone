@@ -36,59 +36,34 @@
                     </li>
                 </ul>
                 <form class="d-flex" role="search">
-                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success" type="submit">Search</button>
+                    <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Buscar</button>
                 </form>
             </div>
         </div>
     </nav>
 
-     <main>
-        <form action="" method="" enctype="">
-            <div>
-                <label for="">Nombre:</label>
-                <input type="text">
-            </div>
-            <div>
-                <label for="">Apellido:</label>
-                <input type="text">
-            </div>
-            <div>
-                <label for="">Email:</label>
-                <input type="email">
-            </div>
-            <div>
-                <label for="">Contraseña:</label>
-                <input type="password">
-            </div>
-            <div>
-                <h3>Genero</h3>
-                <div>
-                    <label for="">Masculino</label>
-                    <input type="radio">
-                    <label for="">Femenino</label>
-                    <input type="radio">
-                    <label for="">Otro</label>
-                    <input type="radio">
-                </div>
-            </div>
-            <div>
-                <select name="" id="">Region
-                    <option value="">Arequipa</option>
-                    <option value="">Cusco</option>
-                    <option value="">Callao</option>
-                    <option value="">Lima</option>
-                </select>
-            </div>
-            <div>
-                <textarea name="" id="" cols="30" rows="10"></textarea>
-            </div>
-            <div>
-                <input type="submit">
-                <input type="reset">
-            </div>
-        </form>
+     <main class="formu">
+        <section class="form">
+            <form>
+                <h2>Te escribimos</h2>
+
+                     <div>
+                        <label for="name">Nombre:</label>
+                        <input type="text" name="name" id="name" placeholder="Nombre">
+                
+                        <label for="phone">Telefono:</label>
+                        <input type="tel" name="phone" id="phone" placeholder="Telefono">
+
+                        <label for="email">Email:</label>
+                        <input type="email" name="email" id="email" placeholder="email">
+
+                        <input class="btn" type="submit" value="Enviar">
+                     </div>
+            </form>
+        </section>
     </main>
+
     <footer>
         <h2>Pawzone</h2>
         <div>
